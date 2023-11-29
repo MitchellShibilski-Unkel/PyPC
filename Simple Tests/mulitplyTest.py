@@ -16,4 +16,4 @@ print(finalValue)
     
 endTimer = time.perf_counter()
 
-print(f"Finished Task In: {endTimer - startTimer:0.4f}s")
+print(f"Finished Task In: {endTimer - startTimer:0.8f}s")
