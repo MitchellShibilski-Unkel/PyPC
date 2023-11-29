@@ -20,7 +20,10 @@ subValue = int(fNum - sNum)
 multValue = int(fNum * sNum)
 
 # Divide
-divideValue = float(fNum / sNum)
+if fNum == 0 or sNum == 0:
+    divideValue = 0
+else:
+    divideValue = float(fNum / sNum)
 
 print(addValue, subValue, multValue, divideValue)
     
