@@ -1,20 +1,16 @@
-import random
 import time
 
 
-# Start timer
 startTimer = time.perf_counter()
 startTimer2 = time.process_time()
 
-# Getting numbers
-fNum = random.randint(0, 9)
-sNum = random.randint(0, 9)
-    
-# Multiply num
-finalValue = int(fNum * sNum)
+userData = float(int(input("Enter value:\n")))
+userData2 = float(int(input("Enter secound value:\n")))
 
-print(finalValue)
-    
+addValues = float(int(userData + userData2))
+
+print(addValues)
+
 endTimer = time.perf_counter()
 endTimer2 = time.process_time()
 
