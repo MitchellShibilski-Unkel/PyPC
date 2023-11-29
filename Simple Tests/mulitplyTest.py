@@ -9,8 +9,8 @@ startTimer = time.perf_counter()
 fNum = random.randint(0, 9)
 sNum = random.randint(0, 9)
     
-# Add num
-finalValue = int(fNum + sNum)
+# Multiply num
+finalValue = int(fNum * sNum)
 
 print(finalValue)
     

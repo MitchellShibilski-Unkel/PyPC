@@ -9,8 +9,11 @@ startTimer = time.perf_counter()
 fNum = random.randint(0, 9)
 sNum = random.randint(0, 9)
     
-# Add num
-finalValue = int(fNum + sNum)
+# Divide num
+if fNum > sNum:
+    finalValue = int(fNum / sNum)
+else:
+    finalValue = int(sNum / fNum)
 
 print(finalValue)
     
