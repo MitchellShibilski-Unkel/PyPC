@@ -7,6 +7,7 @@ startTimer2 = time.process_time()
 
 listOfNums = [None]
 
+# --- Selection Sort --- #
 sortedList = []
 def selectionSort(array = []):
     i = 0
@@ -19,7 +20,8 @@ def selectionSort(array = []):
             i += 1
             sortedList.append(arrMin)
             listOfNums.remove(arrMin)
-            
+
+# Give list to the func/algorithm          
 selectionSort(listOfNums)
 
 print(sortedList)
