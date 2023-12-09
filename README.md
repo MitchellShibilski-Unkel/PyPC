@@ -8,6 +8,12 @@ Uses Python to test your PC's speed/performance.
 
 IMPORTANT: Make sure you have PyCharm, VSC, or any IDE to run this project!
 
+IDE Links:
+- PyCharm: https://www.jetbrains.com/pycharm/
+- Visual Studio Code: https://code.visualstudio.com/
+- Visual Studio: https://visualstudio.microsoft.com/
+- Vim: https://www.vim.org/download.php
+
 # Simple Tests
 - This category of tests adds basic math problems and simple "for" loops
 - Math tests options:
