@@ -24,3 +24,10 @@ IDE Links:
 
 # Sorting Tests
 - This category of tests adds two different types of sorting algorithms/tests; selection and bubble sort.
+
+# General Computer Information
+- This is Python file allows you to get your computer's CPU and OS information
+    - CPU Count
+    - Processor Type
+    - Architecture
+    - OS Name
