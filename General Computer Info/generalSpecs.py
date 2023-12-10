@@ -38,6 +38,10 @@ def RAMUsage():
     totalRAM = np.round(psutil.virtual_memory().total/1000000000, 2)
     print(f"RAM Usage: {ram} GB / {totalRAM} GB")
     
+def swapMemory():
+    swap = np.round(psutil.swap_memory().used/1000000000, 1)
+    print(f"Swap Memory: {swap} GB")
+    
 cpuCoreCount()
 processorType()
 OS()
@@ -46,3 +50,4 @@ phyicalCoresCPU()
 logicalCoresCPU()
 CPUsage()
 RAMUsage()
+swapMemory()
