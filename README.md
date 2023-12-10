@@ -34,3 +34,4 @@ IDE Links:
     - RAM Usage
     - CPU Usage
     - CPU Physical & Logical Cores
+    - Swap Memory
