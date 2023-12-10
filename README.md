@@ -31,3 +31,6 @@ IDE Links:
     - Processor Type
     - Architecture
     - OS Name
+    - RAM Usage
+    - CPU Usage
+    - CPU Physical & Logical Cores
