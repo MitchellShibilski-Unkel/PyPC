@@ -6,7 +6,11 @@ Uses Python to test your PC's speed/performance.
 2. Click on the newest version of "PyPC-Tests"
 3. Click on "Assets", and then click on the source code file to your liking
 
-IMPORTANT: Make sure you have PyCharm, VSC, or any IDE to run this project!
+___OR___
+
+1. Open IDE of choice
+2. In the terminal, use `gh repo clone DMInnovations/PyPC`
+3. Use "import PyPC" or "from PyPC import ___whatever___"
 
 IDE Links:
 - PyCharm: https://www.jetbrains.com/pycharm/
