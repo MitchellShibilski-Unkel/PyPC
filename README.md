@@ -10,7 +10,6 @@ ___OR___
 
 1. Open IDE of choice
 2. In the terminal, use `gh repo clone DMInnovations/PyPC`
-3. Use "import PyPC" or "from PyPC import ___whatever___"
 
 IDE Links:
 - PyCharm: https://www.jetbrains.com/pycharm/
