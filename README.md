@@ -26,7 +26,7 @@ IDE Links:
     - Dividing
 
 # Sorting Tests
-- This category of tests adds two different types of sorting algorithms/tests; selection, merge, and bubble sort.
+- This category of tests adds two different types of sorting algorithms/tests; selection, merge, greatest to least and least to greatest, and bubble sort.
 
 # General Computer Information
 - This is Python file allows you to get your computer's CPU and OS information
