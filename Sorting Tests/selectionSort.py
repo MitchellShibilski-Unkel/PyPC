@@ -10,16 +10,10 @@ listOfNums = [None]
 # --- Selection Sort --- #
 sortedList = []
 def selectionSort(array = []):
-    i = 0
     for arr in range(len(array)):
-        if i == len(array):
-            i = 0
-            break
-        else:
-            arrMin = min(array)
-            i += 1
-            sortedList.append(arrMin)
-            listOfNums.remove(arrMin)
+        arrMin = min(array)
+        sortedList.append(arrMin)
+        listOfNums.remove(arrMin)
 
 # Give list to the func/algorithm          
 selectionSort(listOfNums)

@@ -6,7 +6,7 @@ startTimer = time.perf_counter()
 startTimer2 = time.process_time()
 
 # Random numbers in a list
-theList = [None]
+theList = []
 
 # --- Merge Sort --- #
 sortedList = []
