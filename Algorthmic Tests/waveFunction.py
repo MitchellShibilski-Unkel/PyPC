@@ -27,7 +27,7 @@ def waveFunc(loopNum):
         step2 = float((i * h) * (2 / 2 * t))
 
         # Get the final value
-        print(f"SE: {step1 - step2}\n")
+        print(f"SE: {step1 - step2}s\n")
 
 # Run the function with a specific amount of times it will have to repeat the loop
 waveFunc(None)
@@ -35,4 +35,4 @@ waveFunc(None)
 endTimer = time.perf_counter()
 endTimer2 = time.process_time()
 
-print(f"Task Finished In Performance: {endTimer - startTimer:0.8f}\nTask Finished In Process/CPU/Kernel + User Space: {endTimer2 - startTimer2:0.8f}")
+print(f"Task Finished In Performance: {endTimer - startTimer:0.8f}s\nTask Finished In Process/CPU/Kernel + User Space: {endTimer2 - startTimer2:0.8f}s")
