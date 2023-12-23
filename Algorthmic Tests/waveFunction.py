@@ -27,7 +27,7 @@ def waveFunc(loopNum):
         step2 = float((i * h) * (2 / 2 * t))
 
         # Get the final value
-        print(f"SE: {step1 - step2}s\n")
+        print(f"SE: {step1 - step2}\n")
 
 # Run the function with a specific amount of times it will have to repeat the loop
 waveFunc(None)
