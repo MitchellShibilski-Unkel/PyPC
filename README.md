@@ -38,3 +38,8 @@ IDE Links:
     - CPU Usage
     - CPU Physical & Logical Cores
     - Swap Memory
+      
+# Algorthmic
+- This adds more complex tasks/algorithms
+    - Wave Function
+    - Prime Counter 
