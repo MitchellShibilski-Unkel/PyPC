@@ -18,7 +18,7 @@ def waveFunc(loopNum):
         h = float(6.63)
 
         # Kentic and Potential engeries
-        KE = float((h ** 2 / 2 * mass) * v ** 2)
+        KE = float((-h ** 2 / 2 * mass) * v ** 2)
         PE = int(v * (x + t))
 
         # Add KE + PE
