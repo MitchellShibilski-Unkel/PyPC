@@ -43,3 +43,8 @@ IDE Links:
 - This adds more complex tasks/algorithms
     - Wave Function
     - Prime Counter 
+
+# Multiprocessing
+- This uses current tests in PyPC and uses multiprocessing to max out your CPU to test how fast your computer can process a task under heavy load
+    - Merge Sorting
+    - Prime Counting
