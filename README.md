@@ -1,7 +1,7 @@
 # Python-PC-Tests
 Uses Python to test your PC's speed/performance. 
 
-# Installation
+## Installation
 1. To install, click on "Releases" on the right side of your screen 
 2. Click on the newest version of "PyPC-Tests"
 3. Click on "Assets", and then click on the source code file to your liking
@@ -17,7 +17,7 @@ IDE Links:
 - Visual Studio: https://visualstudio.microsoft.com/
 - Vim: https://www.vim.org/download.php
 
-# Simple Tests
+## Simple Tests
 - This category of tests adds basic math problems and simple "for" loops
 - Math tests options:
     - Adding
@@ -25,10 +25,10 @@ IDE Links:
     - Multiplying
     - Dividing
 
-# Sorting Tests
+## Sorting Tests
 - This category of tests adds two different types of sorting algorithms/tests; selection, merge, greatest to least and least to greatest, and bubble sort.
 
-# General Computer Information
+## General Computer Information
 - This is Python file allows you to get your computer's CPU and OS information
     - CPU Count
     - Processor Type
@@ -39,12 +39,16 @@ IDE Links:
     - CPU Physical & Logical Cores
     - Swap Memory
       
-# Algorthmic
+## Algorthmic
 - This adds more complex tasks/algorithms
     - Wave Function
     - Prime Counter 
 
-# Multiprocessing
+## Multiprocessing
 - This uses current tests in PyPC and uses multiprocessing to max out your CPU to test how fast your computer can process a task under heavy load
     - Merge Sorting
     - Prime Counting
+
+## How To Use
+- Load up the `scoreSys.py` file in your project
+- Call the function, `
