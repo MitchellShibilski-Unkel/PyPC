@@ -10,7 +10,7 @@ theList = [None]
 
 # --- Merge Sort --- #
 sortedList = []
-def mergeSort(array = []):  
+def gtolSort(array = []):  
     # --- Least to greatest --- #
     # Get each side their vars  
     leftSum = len(array) // 2
@@ -44,7 +44,7 @@ def mergeSort(array = []):
     print(sorted(sortedArray))
     print(sorted(sortedArray, reverse=True))
     
-mergeSort(theList)
+gtolSort(theList)
 
 endTimer = time.perf_counter()
 endTimer2 = time.process_time()

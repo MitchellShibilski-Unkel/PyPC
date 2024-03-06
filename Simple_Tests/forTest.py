@@ -9,12 +9,15 @@ startTimer2 = time.process_time()
 theList = ["a", "b", "i", "c", "d", "e", "n", "h", "j", ".", "m", "n", "l", "o", "t", "."]
 
 # Start "for" loop
-for i in theList:
-    if i != ".":
-        continue
-    else:
-        print(i)
-        break
+def forLoop(l):
+    for i in l:
+        if i != ".":
+            continue
+        else:
+            print(i)
+            break
+        
+forLoop(theList)
 
 endTimer = time.perf_counter()
 endTimer2 = time.process_time()

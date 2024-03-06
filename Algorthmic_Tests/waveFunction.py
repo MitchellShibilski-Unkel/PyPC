@@ -28,11 +28,3 @@ def waveFunc(loopNum):
 
         # Get the final value
         print(f"SE: {step1 - step2}\n")
-
-# Run the function with a specific amount of times it will have to repeat the loop
-waveFunc(None)
-
-endTimer = time.perf_counter()
-endTimer2 = time.process_time()
-
-print(f"Task Finished In Performance: {endTimer - startTimer:0.8f}s\nTask Finished In Process/CPU/Kernel + User Space: {endTimer2 - startTimer2:0.8f}s")

@@ -11,9 +11,12 @@ listOfNums = [None]
 sortedList = []
 def selectionSort(array = []):
     for arr in range(len(array)):
-        arrMin = min(array)
-        sortedList.append(arrMin)
-        listOfNums.remove(arrMin)
+        try:
+            arrMin = min(array)
+            sortedList.append(arrMin)
+            listOfNums.remove(arrMin)
+        except Exception:
+            pass
 
 # Give list to the func/algorithm          
 selectionSort(listOfNums)

@@ -11,22 +11,23 @@ fNum = random.randint(0, 9)
 sNum = random.randint(0, 9)
     
 # ---- Do math ----#
-# Add
-addValue = int(fNum + sNum)
+def math(a, b): 
+    # Add
+    addValue = int(a + b)
 
-# Subtract
-subValue = int(fNum - sNum)
+    # Subtract
+    subValue = int(a - b)
 
-# Multiply
-multValue = int(fNum * sNum)
+    # Multiply
+    multValue = int(a * b)
 
-# Divide
-if fNum == 0 or sNum == 0:
-    divideValue = 0
-else:
-    divideValue = float(fNum / sNum)
+    # Divide
+    if a == 0 or sNum == 0:
+        divideValue = 0
+    else:
+        divideValue = float(a / b)
 
-print(addValue, subValue, multValue, divideValue)
+    print(addValue, subValue, multValue, divideValue)
     
 endTimer = time.perf_counter()
 endTimer2 = time.process_time()

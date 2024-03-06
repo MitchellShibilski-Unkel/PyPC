@@ -2,6 +2,7 @@ import os
 import platform
 import psutil
 import numpy as np
+import cpuinfo
 
 
 # CPU Core Count
@@ -27,6 +28,10 @@ def phyicalCoresCPU():
 # Logical CPU Cores 
 def logicalCoresCPU():
     print(psutil.cpu_count(False))
+    
+# CPU Info
+def CPU():
+    return cpuinfo.get_cpu_info()["brand_raw"]
 
 # Overall CPU Usage
 def CPUsage():
@@ -41,13 +46,14 @@ def RAMUsage():
 def swapMemory():
     swap = np.round(psutil.swap_memory().used/1000000000, 1)
     print(f"Swap Memory: {swap} GB")
-    
-cpuCoreCount()
-processorType()
-OS()
-computerArchitecture()
-phyicalCoresCPU()
-logicalCoresCPU()
-CPUsage()
-RAMUsage()
-swapMemory()
+
+def runALl():  
+    cpuCoreCount()
+    processorType()
+    OS()
+    computerArchitecture()
+    phyicalCoresCPU()
+    logicalCoresCPU()
+    CPUsage()
+    RAMUsage()
+    swapMemory()

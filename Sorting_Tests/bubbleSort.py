@@ -9,7 +9,10 @@ startTimer2 = time.process_time()
 theList = [None]
 
 # Run sort
-print(theList.sort())
+def bubbleSort(l = []):
+    return l.sort()
+
+print(bubbleSort)
 
 endTimer = time.perf_counter()
 endTimer2 = time.process_time()
