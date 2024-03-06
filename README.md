@@ -51,4 +51,4 @@ IDE Links:
 
 ## How To Use
 - Load up the `scoreSys.py` file in your project
-- Call the function, `
+- Call the function, `.allTests(letter list, int a, int b, number list)`
