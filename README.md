@@ -40,6 +40,7 @@ IDE Links:
     - CPU Usage
     - CPU Physical & Logical Cores
     - Swap Memory
+    - CPU Temperature
       
 ## Algorthmic
 - This adds more complex tasks/algorithms
