@@ -50,6 +50,9 @@ IDE Links:
 - This uses current tests in PyPC and uses multiprocessing to max out your CPU to test how fast your computer can process a task under heavy load
     - Merge Sorting
     - Prime Counting
+ 
+## WiFi Speed Test
+- This adds a WiFi download and upload speed test
 
 ## How To Use
 - Load up the `scoreSys.py` file in your project
