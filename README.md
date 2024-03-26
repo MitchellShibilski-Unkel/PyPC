@@ -3,15 +3,20 @@ Uses Python to test your PC's speed/performance.
 
 **Wiki**: https://github.com/MitchellShibilski-Unkel/PyPC/wiki
 
+**Version**: v7.1.1     (Major Update.Minor Update.Pylint Version)
+
 ## Installation
 1. To install, click on "Releases" on the right side of your screen 
 2. Click on the newest version of "PyPC-Tests"
-3. Click on "Assets", and then click on the source code file to your liking
+3. Click on "Assets", and then click on the source code file, to your liking
 
 ___OR___
 
-1. Open IDE of choice
-2. In the terminal, use `gh repo clone MitchellShibilski-Unkel/PyPC`
+1. Use `gh repo clone MitchellShibilski-Unkel/PyPC`
+
+___OR___
+
+1. Use `pip install PyPC`
 
 ## Simple Tests
 - This category of tests adds basic math problems and simple "for" loops
