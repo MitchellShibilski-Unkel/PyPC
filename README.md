@@ -14,10 +14,6 @@ ___OR___
 
 1. Use `gh repo clone MitchellShibilski-Unkel/PyPC`
 
-___OR___
-
-1. Use `pip install PyPC`
-
 ## Simple Tests
 - This category of tests adds basic math problems and simple "for" loops
 - Math tests options:
