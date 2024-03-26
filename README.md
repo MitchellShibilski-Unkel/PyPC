@@ -3,8 +3,6 @@ Uses Python to test your PC's speed/performance.
 
 **Wiki**: https://github.com/MitchellShibilski-Unkel/PyPC/wiki
 
-**Version**: v7.1.1     (Major Update.Minor Update.Pylint Version)
-
 ## Installation
 1. To install, click on "Releases" on the right side of your screen 
 2. Click on the newest version of "PyPC-Tests"
