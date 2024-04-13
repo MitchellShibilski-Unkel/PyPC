@@ -6,18 +6,11 @@ Uses Python to test your PC's speed/performance.
 ## Installation
 1. To install, click on "Releases" on the right side of your screen 
 2. Click on the newest version of "PyPC-Tests"
-3. Click on "Assets", and then click on the source code file to your liking
+3. Click on "Assets", and then click on the source code file, to your liking
 
 ___OR___
 
-1. Open IDE of choice
-2. In the terminal, use `gh repo clone MitchellShibilski-Unkel/PyPC`
-
-IDE Links:
-- PyCharm: https://www.jetbrains.com/pycharm/
-- Visual Studio Code: https://code.visualstudio.com/
-- Visual Studio: https://visualstudio.microsoft.com/
-- Vim: https://www.vim.org/download.php
+1. Use `gh repo clone MitchellShibilski-Unkel/PyPC`
 
 ## Simple Tests
 - This category of tests adds basic math problems and simple "for" loops
@@ -40,6 +33,7 @@ IDE Links:
     - CPU Usage
     - CPU Physical & Logical Cores
     - Swap Memory
+    - CPU Temperature
       
 ## Algorthmic
 - This adds more complex tasks/algorithms
