@@ -56,7 +56,7 @@ def swapMemory():
     print(f"Swap Memory: {swap} GB")
     return swap
     
-def getTemp():
+def getCPUTemp():
     temp = np.round(psutil.sensors_temperatures()['coretemp'][0].current, 1)
     return temp
 
@@ -70,3 +70,4 @@ def runALl():
     CPUsage()
     RAMUsage()
     swapMemory()
+    getCPUTemp()
