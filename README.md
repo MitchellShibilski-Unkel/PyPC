@@ -52,4 +52,8 @@ ___OR___
 - Load up the `scoreSys.py` file in your project
 - Call the function, `.allTests(letter list, int a, int b, number list)`
 
+__OR__
+
+- Use `python ScoringSys.py` to run PyPC in the terminal
+
 **Wiki**: https://github.com/MitchellShibilski-Unkel/PyPC/wiki/How-To-Use#how-to-use
