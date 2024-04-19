@@ -54,6 +54,6 @@ ___OR___
 
 __OR__
 
-- Use `python ScoringSys.py` to run PyPC in the terminal
+- Use `python ScoringSysCMD.py` to run PyPC in the terminal
 
 **Wiki**: https://github.com/MitchellShibilski-Unkel/PyPC/wiki/How-To-Use#how-to-use
