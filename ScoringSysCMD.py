@@ -28,4 +28,7 @@ a = random.randint(0, 100000000)
 b = random.randint(0, 100000000)
 l2 = [random.randint(0, 100000000) for _ in range(random.randrange(8, 10000))]
 
-print(terminal(l, a, b, l2))
+def run():
+    return terminal(l, a, b, l2))
+
+print(run(l, a, b, l2))
