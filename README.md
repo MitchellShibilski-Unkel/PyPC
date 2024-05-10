@@ -10,7 +10,7 @@ Uses Python to test your PC's speed/performance.
 
 ___OR___
 
-1. Use `gh repo clone MitchellShibilski-Unkel/PyPC`
+1. Use `pip install git+https://github.com/MitchellShibilski-Unkel/PyPC.git@main`
 
 ## Simple Tests
 - This category of tests adds basic math problems and simple "for" loops
