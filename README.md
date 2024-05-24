@@ -38,7 +38,8 @@ ___OR___
 ## Algorthmic
 - This adds more complex tasks/algorithms
     - Wave Function
-    - Prime Counter 
+    - Prime Counter
+    - RNN Algorithm | *Supports GPU*
 
 ## Multiprocessing
 - This uses current tests in PyPC and uses multiprocessing to max out your CPU to test how fast your computer can process a task under heavy load
