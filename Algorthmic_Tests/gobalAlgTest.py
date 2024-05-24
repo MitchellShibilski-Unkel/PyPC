@@ -1,9 +1,10 @@
 from Algorthmic_Tests import primeCounter
 from Algorthmic_Tests import waveFunction
+from Algorthmic_Tests import rnnAlgorithm
 import time
 
 
-def algorithmTest():
+def algorithmTest(useGPU: bool = False):
     startTimer = time.process_time()
     startTimer2 = time.process_time()
     
@@ -29,6 +30,12 @@ def algorithmTest():
     
     endTimer5 = time.process_time()
     
+    startTimer6 = time.process_time()
+
+    rnnAlgorithm.RNN([1, 2, 3, 4, 5, 6, 7, 8, 9, 10], 10, 10, 10, useGPU)
+    
+    endTimer6 = time.process_time()
+    
     endTimer = time.process_time()
     
     pointList = []
@@ -37,6 +44,7 @@ def algorithmTest():
     pointList.append((endTimer3 - startTimer3) // 0.0005 * 0.1)
     pointList.append((endTimer4 - startTimer4) // 0.0005 * 0.1)
     pointList.append((endTimer5 - startTimer5) // 0.0005 * 0.1)
+    pointList.append((endTimer6 - startTimer6) // 0.0005 * 0.1)
     pointList.append(sum(pointList) + (endTimer - startTimer) // 10)
     
     return pointList[-1]
