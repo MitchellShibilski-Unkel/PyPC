@@ -21,7 +21,7 @@ setup(
     long_description_content_type="text/markdown",
     long_description=long_description,
     packages=find_packages(),
-    install_requires=['speedtest', 'numpy', 'os', 'platform', 'psutil', 'cpuinfo', 'time', 'random', 'multiprocessing'],
+    install_requires=['speedtest', 'numpy', 'os', 'platform', 'psutil', 'cpuinfo', 'time', 'random', 'multiprocessing', 'torch'],
     keywords=['pypc', 'speed-test'],
     classifiers=[
         "Intended Audience :: Developers",
