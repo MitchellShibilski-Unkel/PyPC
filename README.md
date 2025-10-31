@@ -49,7 +49,6 @@ ___OR___
 <ul>
     <li>Wave Function</li>
     <li>Prime Counter</li>
-    <li>RNN Algorithm &mdash; <em>Supports GPU</em></li>
 </ul>
 
 <h3>Multiprocessing</h3>
@@ -60,12 +59,12 @@ ___OR___
 </ul>
  
 ## WiFi Speed Test
-<h3> This adds a WiFi download and upload speed test </h3>
+<p> This adds a WiFi download and upload speed test </p>
 
 ## AI 
 <h3> You can test out different models and neural nets locally on your computer with a score </h3>
 <p> This feature supports a varity of different devices - CPU, GPU (Cuda), XPU, MPS, & Vulkan. Additionally, you can run and score HuggingFace models. </p>
-*Only works in the CMD scoring system*
+<strong>*Only works in the CMD scoring system</strong>
 
 ## How To Use
 - Load up the `scoreSys.py` file in your project
