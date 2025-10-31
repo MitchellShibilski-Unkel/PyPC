@@ -14,37 +14,50 @@ ___OR___
 
 ## Simple Tests
 <h3> This category of tests adds basic math problems and simple "for" loops </h3>
-- **Math tests options:**
-    - Adding
-    - Subtracing
-    - Multiplying
-    - Dividing
+<p>Math tests options</p>
+<ul>
+    <li>Adding</li>
+    <li>Subtracting</li>
+    <li>Multiplying</li>
+    <li>Dividing</li>
+</ul>
 
-## Sorting Tests
-<h3> This category of tests adds two different types of sorting algorithms/tests; selection, merge, greatest to least and least to greatest, and bubble sort. </h3>
+<h3>Sorting Tests</h3>
+<p>This category of tests adds two different types of sorting algorithms/tests: selection, merge, and bubble sort. Supports sorting greatest-to-least and least-to-greatest.</p>
+<ul>
+    <li>Selection sort (greatest-to-least / least-to-greatest)</li>
+    <li>Merge sort</li>
+    <li>Bubble sort</li>
+</ul>
 
-## General Computer Information
-<h3> This is Python file allows you to get your computer's CPU and OS information </h3>
-    - CPU Count
-    - Processor Type
-    - Architecture
-    - OS Name
-    - RAM Usage
-    - CPU Usage
-    - CPU Physical & Logical Cores
-    - Swap Memory
-    - CPU Temperature
-      
-## Algorthmic
-<h3> This adds more complex tasks/algorithms </h3>
-    - Wave Function
-    - Prime Counter
-    - RNN Algorithm | *Supports GPU*
+<h3>General Computer Information</h3>
+<p>This Python file allows you to get your computer's CPU and OS information.</p>
+<ul>
+    <li>CPU Count</li>
+    <li>Processor Type</li>
+    <li>Architecture</li>
+    <li>OS Name</li>
+    <li>RAM Usage</li>
+    <li>CPU Usage</li>
+    <li>CPU Physical &amp; Logical Cores</li>
+    <li>Swap Memory</li>
+    <li>CPU Temperature</li>
+</ul>
 
-## Multiprocessing
-<h3> This uses current tests in PyPC and uses multiprocessing to max out your CPU to test how fast your computer can process a task under heavy load </h3>
-    - Merge Sorting
-    - Prime Counting
+<h3>Algorithmic</h3>
+<p>This adds more complex tasks/algorithms.</p>
+<ul>
+    <li>Wave Function</li>
+    <li>Prime Counter</li>
+    <li>RNN Algorithm &mdash; <em>Supports GPU</em></li>
+</ul>
+
+<h3>Multiprocessing</h3>
+<p>Uses current tests in PyPC and leverages multiprocessing to max out your CPU to test performance under heavy load.</p>
+<ul>
+    <li>Merge Sorting</li>
+    <li>Prime Counting</li>
+</ul>
  
 ## WiFi Speed Test
 <h3> This adds a WiFi download and upload speed test </h3>
