@@ -64,8 +64,8 @@ ___OR___
 
 ## AI 
 <h3> You can test out different models and neural nets locally on your computer with a score </h3>
-<p> This feature supports a varity of different devices - CPU, GPU (Cuda), XPU, MPS, & `Vulkan`. Additionally, you can run and score HuggingFace models. </p>
-<p style="font-style: bold;"> *Only works in the CMD scoring system </p>
+<p> This feature supports a varity of different devices - CPU, GPU (Cuda), XPU, MPS, & Vulkan. Additionally, you can run and score HuggingFace models. </p>
+*Only works in the CMD scoring system*
 
 ## How To Use
 - Load up the `scoreSys.py` file in your project
