@@ -7,7 +7,7 @@ here = os.path.abspath(os.path.dirname(__file__))
 with codecs.open(os.path.join(here, "README.md"), encoding="utf-8") as fh:
     long_description = "\n" + fh.read()
 
-VERSION = 'v8.0'
+VERSION = 'v9.0'
 DESCRIPTION = 'PyPC'
 LONG_DESCRIPTION = '-'
 
@@ -21,8 +21,8 @@ setup(
     long_description_content_type="text/markdown",
     long_description=long_description,
     packages=find_packages(),
-    install_requires=['speedtest', 'numpy', 'os', 'platform', 'psutil', 'cpuinfo', 'time', 'random', 'multiprocessing', 'torch'],
-    keywords=['pypc', 'speed-test'],
+    install_requires=['speedtest', 'numpy', 'os', 'platform', 'psutil', 'py-cpuinfo', 'time', 'random', 'multiprocessing', 'torch'],
+    keywords=['pypc', 'speed-test', 'ai', 'ai-benchmark'],
     classifiers=[
         "Intended Audience :: Developers",
         "Programming Language :: Python :: 3",

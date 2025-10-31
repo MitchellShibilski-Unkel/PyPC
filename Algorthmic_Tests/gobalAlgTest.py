@@ -1,6 +1,5 @@
 from Algorthmic_Tests import primeCounter
 from Algorthmic_Tests import waveFunction
-from Algorthmic_Tests import rnnAlgorithm
 import time
 
 

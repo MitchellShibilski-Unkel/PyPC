@@ -6,7 +6,7 @@ from WiFi_Test import wifi
 import time
 import numpy as np
 
-def allTests(l = [], a = 0, b = 0, l2 = []):
+def allTestsExpectAI(l = [], a = 0, b = 0, l2 = []):
     startTimer = time.process_time()
     
     alg = gobalAlgTest.algorithmTest()
