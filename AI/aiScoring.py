@@ -6,8 +6,6 @@ def score(_in, device, test: int = 1, inputSize: int = 16, hx: int = 32, outputS
     startTimer = time.perf_counter()
     startTimer2 = time.process_time()
     
-    change = 0 # Placeholder for HuggingFace
-    
     if test == 1:
         SimpleNeuralNet(inputSize, hx, outputSize).to(device)(_in)
     elif test == 2:
@@ -24,5 +22,5 @@ def score(_in, device, test: int = 1, inputSize: int = 16, hx: int = 32, outputS
     endTimer2 = time.process_time()
     
     totalTime = (endTimer - startTimer) + (endTimer2 - startTimer2)
-    points = (1000 // totalTime * 0.1) + change
+    points = (1000 // totalTime * 0.1)
     return f"AI Score: {points} | Time Taken: {totalTime}s"

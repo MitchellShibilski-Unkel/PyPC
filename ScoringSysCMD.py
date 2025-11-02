@@ -44,10 +44,7 @@ def terminal(l = [], a = 0, b = 0, l2 = []):
         elif whichAI == "LargeNeuralNet" or whichAI == "3":
             return score(data, device, test=3, inputSize=inputSize, hx=hx, outputSize=outputSize, numLayers=numLayers)
         elif whichAI == "HuggingFace" or whichAI == "4":
-            usePrompt = input("Use a Custom Prompt? [y/n]: ")
-            if usePrompt == "y":
-                prompt = input("Enter Your Prompt [string/list]: ")
-                data = prompt
+            data = input("Prompt: ")
             modelName = input("HuggingFace Model Name (Default google/gemma-3-270m): ") or "google/gemma-3-270m"
             modelType = input("HuggingFace Model Type (Default text-generation): ") or "text-generation"
             return score(data, device, test=4, inputSize=inputSize, hx=0, outputSize=1, model=modelName, type=modelType)

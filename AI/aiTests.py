@@ -1,4 +1,5 @@
 from torch import nn
+from transformers import pipeline
 
 
 class SimpleNeuralNet(nn.Module):
@@ -68,6 +69,5 @@ class HuggingFace:
         self.type = type
         
     def model(self, data):
-        from transformers import pipeline
         pipe = pipeline(self.type, self.modelName, device=self.device)(data)
         return pipe
