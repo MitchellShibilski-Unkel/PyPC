@@ -62,7 +62,7 @@ ___OR___
 ## AI 
 <h3> You can test out different models and neural nets locally on your computer with a score </h3>
 <p> This feature supports a varity of different devices - CPU, GPU (Cuda), XPU, MPS, & Vulkan. Additionally, you can run and score HuggingFace models. </p>
-<strong>*Only works in the CMD scoring system</strong>
+<p> You can either use the `ScoringSysCMD` or use `ScoringSysAI` (*train a model with your custom dataset) </p> 
 
 ## How To Use
 - Load up the `scoreSys.py` file in your project
@@ -71,5 +71,3 @@ ___OR___
 __OR__
 
 - Use `python ScoringSysCMD.py` to run PyPC in the terminal
-
-**Wiki**: https://github.com/MitchellShibilski-Unkel/PyPC/wiki/How-To-Use#how-to-use
